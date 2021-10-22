@@ -10,10 +10,7 @@ html {
 }
 
 
-body {
-    height: 1000px;
-    background-color: black;
-}
+
 .clearfix::after{
     content:"";
     display: table;
@@ -24,9 +21,10 @@ body {
 
 .menu.clearfix {
     width: 100%;
-    position: relative;
     position: fixed;
     background-color: white;
+    z-index: 999;
+    height: 4em;
    
 }
 
@@ -90,4 +88,11 @@ body {
     display: inline;
     color: white;
     
+}
+
+.jumbo-title {
+    height: 40em;
+    background-color: #B4D0E7;
+    width: 100%;
+    padding-top: 6em;
 }
