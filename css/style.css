@@ -9,6 +9,10 @@ html {
     font-size: 100%;
 }
 
+body {
+    height: 1000px;
+    background-color: black;
+}
 
 
 .clearfix::after{
@@ -16,8 +20,6 @@ html {
     display: table;
     clear: both;
 }
-
-
 
 .menu.clearfix {
     width: 100%;
@@ -27,6 +29,7 @@ html {
     height: 4em;
    
 }
+
 
 .col-sx-menu {
     float:left;
@@ -91,8 +94,14 @@ html {
 }
 
 .jumbo-title {
-    height: 40em;
+    height: 30em;
     background-color: #B4D0E7;
     width: 100%;
-    padding-top: 6em;
+    padding-top: 8em;
+}
+
+.jumbo-title h1 {
+    font-size: 4.6em;
+    width: 80%;
+    margin: auto;
 }
