@@ -9,10 +9,7 @@ html {
     font-size: 100%;
 }
 
-body {
-    height: 1000px;
-    
-}
+
 
 
 .clearfix::after{
@@ -63,7 +60,7 @@ body {
 
 .ul-nav li {
     display: inline;
-    margin-right: 1em;
+    margin-right: 1.5em;
     padding-bottom: 1em;
     vertical-align: 1.6em;
 }
@@ -106,6 +103,7 @@ body {
     font-size: 4.6em;
     width: 80%;
     margin: auto;
+    
     
 }
 
@@ -150,3 +148,68 @@ body {
 .fa.fa-arrow-down {
     font-size: 1.5em;
 }
+
+.main-title {
+    width: 60%;
+    margin: 12em 10em 2em 15em;
+   
+}
+
+.main-title h2 {
+    font-size: 2.5em;
+}
+
+.fatturazione {
+    margin-left: 15em;
+}
+
+.fatturazione span {
+    font-size: small;
+    font-weight: bold;
+}
+
+.radio {
+    vertical-align: -0.2em;
+}
+
+.main-container {
+    height: 100em;
+    width: 60%;
+    margin: 2em 10em 5em 15em;
+    height: 63em;
+}
+
+.col-header {
+    float:left;
+    width: 30%;
+    border: 1px solid black;
+    font-size: medium;
+    
+}
+
+.col-header h3 {
+    text-align: center;
+    font-size: medium;
+}
+
+.col-header.col-margin {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.col-main {
+    float:left;
+    width: 30%;
+    border: 1px solid black;
+    font-size: medium;
+    height: 980px;
+    border-top: 0px;
+
+}
+
+.col-main.col-margin {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
