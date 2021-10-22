@@ -11,7 +11,7 @@ html {
 
 body {
     height: 1000px;
-    background-color: black;
+    
 }
 
 
@@ -63,7 +63,7 @@ body {
 
 .ul-nav li {
     display: inline;
-    margin-right: 1em;
+    margin-right: 1.5em;
     padding-bottom: 1em;
     vertical-align: 1.6em;
 }
@@ -90,11 +90,12 @@ body {
     border-bottom: 0px;
     display: inline;
     color: white;
+    font-size: small;
     
 }
 
 .jumbo-title {
-    height: 30em;
+    height: 20em;
     background-color: #B4D0E7;
     width: 100%;
     padding-top: 8em;
@@ -104,4 +105,42 @@ body {
     font-size: 4.6em;
     width: 80%;
     margin: auto;
+    
+}
+
+.jumbo-main {
+    position: relative;
+    height: 25em;
+    background-color: #B4D0E7;
+    padding-top: 3em;
+}
+
+.jumbo-main-sx {
+    float: left;
+    width: 30%;
+    margin-left: 10%;
+    padding-right: 8.3em;
+}
+
+.jumbo-main-dx {
+    float: right;
+    width: 50%;
+    margin-right: 10%;
+}
+
+.jumbo-main-sx p:not(#annullamento) {
+    font-size: small;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-bottom: 2em;
+}
+
+.jumbo-width {
+    max-width: 100%;
+}
+
+#annullamento {
+    margin-top: 2em;
+    font-size: small;
+    font-weight: bold;
 }
