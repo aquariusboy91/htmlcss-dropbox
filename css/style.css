@@ -9,27 +9,42 @@ html {
     font-size: 100%;
 }
 
+
+body {
+    height: 1000px;
+    background-color: black;
+}
 .clearfix::after{
     content:"";
     display: table;
     clear: both;
 }
 
+
+
 .menu.clearfix {
     width: 100%;
     position: relative;
+    position: fixed;
+    background-color: white;
    
 }
 
 .col-sx-menu {
     float:left;
+    height: 4em;
 }
 
 .col-dx-menu {
     float:right;
+    height: 4em;
 }
 
 .col-sx-menu a {
+    text-decoration: none;
+}
+
+.col-dx-menu a {
     text-decoration: none;
 }
 
@@ -40,20 +55,39 @@ html {
 
 .ul-nav {
     display: inline-block;
-    vertical-align: 1.4em;
+    list-style-type: none;
+    font-size: small;
+    font-weight: bold;
 }
 
 .ul-nav li {
     display: inline;
     margin-right: 1em;
     padding-bottom: 1em;
+    vertical-align: 1.6em;
 }
 
-.ul-nav li:hover {
+.ul-nav li:not(#nav-btn):hover{
     border-bottom: black 1px solid;
 }
 
 .logo {
     padding: 1em;
 
+}
+
+
+.ul-nav.nav-dx-pdn-top li {
+    vertical-align: -1.6em;
+   
+
+}
+
+#nav-btn {
+    padding: 0.5em 1em;
+    background-color: cornflowerblue;
+    border-bottom: 0px;
+    display: inline;
+    color: white;
+    
 }
