@@ -63,7 +63,7 @@ body {
 
 .ul-nav li {
     display: inline;
-    margin-right: 1.5em;
+    margin-right: 1em;
     padding-bottom: 1em;
     vertical-align: 1.6em;
 }
@@ -91,6 +91,7 @@ body {
     display: inline;
     color: white;
     font-size: small;
+    font-weight: bold;
     
 }
 
@@ -143,4 +144,9 @@ body {
     margin-top: 2em;
     font-size: small;
     font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.fa.fa-arrow-down {
+    font-size: 1.5em;
 }
