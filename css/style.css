@@ -179,10 +179,9 @@ html {
 
 
 .main-container {
-    height: 100em;
     width: 60%;
-    margin: 2em 20em 5em 20em;
-    height: 63em;
+    margin: 2em 20em 3em 20em;
+    height: 52em;
 }
 
 .col-header {
@@ -214,6 +213,7 @@ html {
     font-size: medium;
     height: 800px;
     border-top: 0px;
+    margin-bottom: 3em;
 
 }
 
@@ -237,17 +237,19 @@ html {
     color: grey;
 }
 
-.tariffe ul {
+.col-main ul {
     list-style-type: none;
     font-size: 10px;
     padding-top: 2em;
     font-weight: 600;
     margin-bottom: 3em;
+    padding: 2em 2.5em 0.5em 2em;
     
 }
 
-.tariffe li {
+.col-main li {
     margin-top: 2em;
+
 }
 
 #prova {
@@ -259,6 +261,7 @@ html {
     font-size: 10px;
     font-weight: bold;
     text-decoration: none;
+    margin-left: 2em;
    
 }
 .col-main.col-margin {
@@ -275,6 +278,7 @@ html {
 #oppure-border {
     padding-bottom: 2em;
     border-bottom: 1px solid grey;
+    margin-left: 2em;
 }
 
 .acquisto-immediato a{
@@ -283,18 +287,78 @@ html {
 
 .punti-salienti {
     margin-top: 3em;
+    
 }
 
 .punti-salienti p {
     font-size: 12px;
     font-weight: bolder;
+    margin-left: 2em;
 }
 
 .punti-salienti ul {
-    margin-right: 2em;
+   
     list-style-type: none;
 }
 
 .check {
     color: cornflowerblue;
+}
+
+.col-footer-title {
+    width: 60%;
+    padding: 0em 0.5em 0.5em 0.5em;
+    margin: 0em 20em 0em 20em;
+    text-align: center;
+    border-bottom: 1px solid #EBEBEC;
+    border-right: 1px solid #EBEBEC;
+    border-left: 1px solid #EBEBEC;
+}
+.col-footer-title h3 {
+    display: inline-block;
+}
+
+.col-footer-title span{
+    margin-right: 0.5em;
+}
+
+.col-footer-content {
+    height: 150px;
+    border-bottom: 1px solid #EBEBEC;
+    border-right: 1px solid #EBEBEC;
+    border-left: 1px solid #EBEBEC;
+    width: 60%;
+    margin: 0em 20em 5em 20em;
+    position: relative;
+}
+
+.col-footer-content-dx {
+    width: 30%;
+    float:right;
+    height: 150px;
+    margin-top: 2em;
+}
+
+.col-footer-content-sx {
+    width: 70%;
+    float:left;
+    height: 150px;
+}
+
+.didasc-main-footer {
+    padding-top: 1em;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+#main-footer-btn {
+    padding: 0.5em 3.5em;
+    background-color: cornflowerblue;
+    border-bottom: 0px;
+    display: inline;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 2em;
 }
