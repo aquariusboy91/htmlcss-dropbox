@@ -109,7 +109,7 @@ html {
 
 .jumbo-main {
     position: relative;
-    height: 25em;
+    height: 24em;
     background-color: #B4D0E7;
     padding-top: 3em;
 }
@@ -136,6 +136,7 @@ html {
 
 .jumbo-width {
     max-width: 100%;
+    padding-right: 4em;
 }
 
 #annullamento {
@@ -151,7 +152,7 @@ html {
 
 .main-title {
     width: 60%;
-    margin: 12em 10em 2em 15em;
+    margin: 12em 10em 2em 20em;
    
 }
 
@@ -160,7 +161,7 @@ html {
 }
 
 .fatturazione {
-    margin-left: 15em;
+    margin-left: 20em;
 }
 
 .fatturazione span {
@@ -168,29 +169,38 @@ html {
     font-weight: bold;
 }
 
+.margin-fatturazione {
+    margin-right: 1em;
+}
+ 
 .radio {
     vertical-align: -0.2em;
 }
 
+
 .main-container {
     height: 100em;
     width: 60%;
-    margin: 2em 10em 5em 15em;
+    margin: 2em 20em 5em 20em;
     height: 63em;
 }
 
 .col-header {
     float:left;
     width: 30%;
-    border: 1px solid black;
+    border: 1px solid #EBEBEC;
     font-size: medium;
+    text-align: center;
     
 }
 
 .col-header h3 {
-    text-align: center;
-    font-size: medium;
+    font-size: 15px;
+    padding: 0.5em;
+    display: inline-block;
+    
 }
+
 
 .col-header.col-margin {
     margin-left: 5%;
@@ -200,16 +210,91 @@ html {
 .col-main {
     float:left;
     width: 30%;
-    border: 1px solid black;
+    border: 1px solid #EBEBEC;
     font-size: medium;
-    height: 980px;
+    height: 800px;
     border-top: 0px;
 
 }
 
+
+
+.tariffe {
+    padding: 2em 2em 0.5em 1.5em;
+}
+
+.price {
+    font-weight: bold;
+    font-size: small;
+    padding-top: 1em;
+    
+}
+
+.abb {
+    padding-top: 1em;
+    font-weight: bold;
+    font-size: 10px;
+    color: grey;
+}
+
+.tariffe ul {
+    list-style-type: none;
+    font-size: 10px;
+    padding-top: 2em;
+    font-weight: 600;
+    margin-bottom: 3em;
+    
+}
+
+.tariffe li {
+    margin-top: 2em;
+}
+
+#prova {
+    padding: 0.5em 3.5em;
+    background-color: cornflowerblue;
+    border-bottom: 0px;
+    display: inline;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+   
+}
 .col-main.col-margin {
     margin-left: 5%;
     margin-right: 5%;
 }
 
+.acquisto-immediato {
+    margin-top: 2em;
+    font-size: 10px;
+    font-weight: 600;
+}
 
+#oppure-border {
+    padding-bottom: 2em;
+    border-bottom: 1px solid grey;
+}
+
+.acquisto-immediato a{
+    color: cornflowerblue;
+}
+
+.punti-salienti {
+    margin-top: 3em;
+}
+
+.punti-salienti p {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.punti-salienti ul {
+    margin-right: 2em;
+    list-style-type: none;
+}
+
+.check {
+    color: cornflowerblue;
+}
