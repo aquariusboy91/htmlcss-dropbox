@@ -415,6 +415,45 @@ html {
     position: relative;
     width: 60%;
     margin: 4em 20em 5em 20em;
-    height: 200px;
+    height: 1000px;
 
+}
+
+.col-business-sx {
+    float: left;
+    width: 25%;
+    height: 300px;
+    margin-top: 2em;
+}
+
+.container-operazioni-business p {
+    margin-top: 2em;
+    font-size: small;
+    font-weight: bold;
+}
+
+.col-business-center {
+    float: left;
+    width: 25%;
+    height: 300px;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+    margin-top: 2em;
+    
+}
+
+.col-business-dx {
+    float: left;
+    width: 25%;
+    height: 300px;
+    margin-top: 2em;
+}
+
+.img-business {
+    width: 100%;
+    height: 190px;
+}
+
+.row2 {
+    margin-top: 10em;
 }
