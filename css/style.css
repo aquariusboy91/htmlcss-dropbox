@@ -89,6 +89,7 @@ html {
     color: white;
     font-size: small;
     font-weight: bold;
+    text-decoration: none;
     
 }
 
@@ -361,4 +362,59 @@ html {
     font-weight: bold;
     text-decoration: none;
     margin-left: 2em;
+}
+
+.container-find-partner {
+    width: 60%;
+    margin: 8em 20em 5em 20em;
+    position: relative;
+    height: 420px;
+    margin-bottom: 3em;
+    
+
+}
+
+.col-find-partner-dx {
+    float: left;
+    width: 40%;
+    height: 420px;
+}
+
+.col-find-partner-sx {
+    float: left;
+    width: 55%;
+    background-image: url(../img/partner.png);
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5%;
+}
+
+.col-find-partner-dx h2{
+    padding-top: 2.5em;
+    
+}
+
+.col-find-partner-dx p {
+    font-size: small;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+
+.find-partner-link {
+    padding: 0.5em 2em;
+    border: 2px solid black;
+    font-size: small;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.container-operazioni-business {
+    position: relative;
+    width: 60%;
+    margin: 4em 20em 5em 20em;
+    height: 200px;
+
 }
