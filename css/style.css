@@ -639,11 +639,27 @@ hr {
     width: 35%;
 }
 
-.col-prova-gratuita-sx h1{
-    padding: 3em 2em 0em 8em;
+.col-prova-gratuita-sx h2{
+    padding-top: 4em;
+    margin-left: 12.5em; 
 }
 
 .col-prova-gratuita-dx a {
     line-height: 20em;
     display: inline-block;
+}
+
+.cont-faq {
+    height: 15em;
+    width: 60%;
+    margin:auto;
+}
+
+.cont-faq hr {
+    width: 100%;
+    margin: 2em 0em;
+}
+.faq {
+    margin-top: 5em;
+    
 }
