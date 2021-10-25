@@ -466,7 +466,7 @@ html {
 
 .container-customers-main {
     position: relative;
-    height: 500px;
+    height: 28.4em;
     margin-top: 3em;
 }
 
@@ -595,14 +595,55 @@ hr {
     filter: invert(100%);
 }
 
-#hearst {
-    padding-top: 2em;
-}
 
 .col-dx-customers div img {
-    padding: 0em 2em;
+    padding: 1em 2em;
 }
 
 .col-sx-customers div img {
-    padding: 0em 1em;
+    padding: 1em 1em;
+}
+
+#hearst {
+    padding: 2.5em 1.8em;
+}
+
+.container-prova-gratuita {
+    height: 18em;
+    background-color: #B4D0E7;
+    width: 100%;
+    position: relative;
+
+}
+
+#prova-gratuita-button {
+    padding: 1em 5em;
+    background-color: white;
+    border-bottom: 0px;
+    display: inline;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 2em;
+
+}
+
+.col-prova-gratuita-sx {
+    float: left;
+    width: 65%;
+}
+
+.col-prova-gratuita-dx {
+    float: left;
+    width: 35%;
+}
+
+.col-prova-gratuita-sx h1{
+    padding: 3em 2em 0em 8em;
+}
+
+.col-prova-gratuita-dx a {
+    line-height: 20em;
+    display: inline-block;
 }
