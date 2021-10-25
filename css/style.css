@@ -613,6 +613,7 @@ hr {
     background-color: #B4D0E7;
     width: 100%;
     position: relative;
+    margin-bottom: 5em;
 
 }
 
@@ -650,16 +651,75 @@ hr {
 }
 
 .cont-faq {
-    height: 15em;
+    height: 20em;
     width: 60%;
     margin:auto;
+    margin-bottom: 5em;
 }
 
 .cont-faq hr {
     width: 100%;
-    margin: 2em 0em;
+    margin: 2em 0em 1em 0em;
 }
+
 .faq {
-    margin-top: 5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid lightgrey;
+    padding-top: 1em;
+}
+
+.cont-faq .faq:first-child {
+    border-bottom: 0px;
+}
+
+.faq p {
+    font-size: small;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 27em;
+}
+
+.fa.fa-arrow-down {
+    font-size: small;
+}
+
+.container-footer {
+    height: 20em;
+    background-color: black;
     
+}
+
+.col-container-footer {
+    width: 60%;
+    margin:auto; 
+}
+.col-footer {
+    float: left;
+    width: 20%;
+    height: 15em;
+    color: white;
+} 
+
+.col-footer h4 {
+    margin-top: 5em;
+}
+
+.col-footer ul {
+    font-size: small;
+    list-style: none;
+    margin-top: 1em;
+    line-height: 2em;
+}
+
+.col-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.col-footer a:hover {
+    text-decoration-line: underline;
+}
+
+.border-footer-first-col {
+    border-bottom: 1px solid grey;
 }
