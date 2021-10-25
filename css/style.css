@@ -421,7 +421,7 @@ html {
 
 .col-business-sx {
     float: left;
-    width: 25%;
+    width: 30%;
     height: 300px;
     margin-top: 2em;
 }
@@ -430,30 +430,120 @@ html {
     margin-top: 2em;
     font-size: small;
     font-weight: bold;
+    padding-right: 9%;
 }
 
 .col-business-center {
     float: left;
-    width: 25%;
+    width: 30%;
     height: 300px;
-    margin-right: 7.5%;
-    margin-left: 7.5%;
+    margin-right: 5%;
+    margin-left: 5%;
     margin-top: 2em;
     
 }
 
 .col-business-dx {
     float: left;
-    width: 25%;
+    width: 30%;
     height: 300px;
     margin-top: 2em;
 }
 
 .img-business {
-    width: 100%;
+    width: 85%;
     height: 190px;
 }
 
 .row2 {
     margin-top: 10em;
+}
+
+.container-customers {
+    width: 60%;
+    margin: 4em 20em 5em 20em;
+    height: 500px;
+}
+
+.container-customers-main {
+    position: relative;
+    height: 500px;
+    margin-top: 3em;
+}
+
+.container-customers a {
+    font-size: small;
+}
+
+.container-customers h2 {
+    margin-bottom: 0.5em;
+}
+
+.main {
+    position:relative;
+}
+
+.col-dx-customers {
+    float: left;
+    width: 30%;
+}
+
+.col-center-customers {
+    float: left;
+    width: 40%;
+    
+}
+
+.col-sx-customers {
+    float:left;
+    width: 30%;
+    height: 500px;
+    position: relative;
+    
+}
+
+
+.container-customers-main img {
+    width: 100%;
+}
+
+.square {
+    width: 50%;
+    height: 136px;
+    float: left;
+    padding: 3em 1em 1em 1em;
+}
+
+.col-sx-customers .square:first-child {
+    background-color: #A2D39B;
+
+}
+
+.col-sx-customers .square:nth-child(2) {
+    background-color: #61082B;
+    padding-bottom: 1.5em;
+
+}
+
+.col-sx-customers .square:nth-child(3) {
+    background-color: #0093CE;
+
+}
+
+.col-sx-customers .square:nth-child(4) {
+    background-color: #FF1C1C;
+
+}
+
+.col-sx-customers img:first-child {
+    filter: invert(100%);
+}
+
+#asu {
+    padding: 2.5em 2em 2em 2em;
+
+}
+
+#topps {
+    padding: 2.5em 2em 2em 2em;
 }
