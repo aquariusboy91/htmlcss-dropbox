@@ -10,8 +10,6 @@ html {
 }
 
 
-
-
 .clearfix::after{
     content:"";
     display: table;
@@ -486,6 +484,7 @@ html {
     float: left;
     width: 30%;
     height: 28.5em;
+    position: relative;
 }
 
 .col-center-customers {
@@ -493,6 +492,7 @@ html {
     width: 40%;
     background-color: #F5F5F5;
     height: 28.5em;
+    position: relative;
     
 }
 
@@ -506,11 +506,11 @@ html {
 
 
 .container-customers-main img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .square {
-    width: 14.2em;
+    width: 50%;
     height: 14.2em;
     float: left;
     padding: 5em 1em 1em 1em;
