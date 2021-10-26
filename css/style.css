@@ -83,7 +83,7 @@ html {
     padding: 0.5em 1em;
     background-color: cornflowerblue;
     border-bottom: 0px;
-    display: inline;
+    display: inline-block;
     color: white;
     font-size: small;
     font-weight: bold;
@@ -255,7 +255,7 @@ html {
     padding: 0.5em 3.5em;
     background-color: cornflowerblue;
     border-bottom: 0px;
-    display: inline;
+    display: inline-block;
     color: white;
     font-size: 10px;
     font-weight: bold;
@@ -354,7 +354,7 @@ html {
     padding: 0.5em 3.5em;
     background-color: cornflowerblue;
     border-bottom: 0px;
-    display: inline;
+    display: inline-block;
     color: white;
     font-size: 10px;
     font-weight: bold;
@@ -449,8 +449,8 @@ html {
 }
 
 .img-business {
-    width: 85%;
-    height: 190px;
+    max-width: 14em;
+    max-height: 13em;
 }
 
 .row2 {
@@ -651,7 +651,6 @@ html {
 }
 
 .cont-faq {
-    height: 20em;
     width: 60%;
     margin:auto;
     margin-bottom: 5em;
@@ -659,28 +658,58 @@ html {
 
 .cont-faq hr {
     width: 100%;
-    margin: 2em 0em 1em 0em;
+    margin: 1.5em 0em 0em 0em;
 }
 
-.faq {
-    padding-bottom: 1em;
+.faq-domande li{
+    padding-bottom: 1.5em;
     border-bottom: 1px solid lightgrey;
-    padding-top: 1em;
+    padding-top: 1.5em;
 }
 
-.cont-faq .faq:first-child {
+.faq-domande ul {
+    list-style-type: none;
+}
+
+.cont-faq .faq-domande:first-child {
     border-bottom: 0px;
+}
+
+
+
+.faq:hover p {
+    display: block;
+    margin-top: 1em;
 }
 
 .faq p {
     font-size: small;
     font-weight: bold;
-    display: inline-block;
-    margin-right: 27em;
+    display: none; 
+    float: left;
 }
 
-.fa.fa-arrow-down {
-    font-size: small;
+.faq h4 {
+    display: inline-block;
+}
+
+.faq span {
+    float: right;
+}
+
+
+.faq .fa.fa.fa-arrow-down {
+    display: none;
+    font-size: medium;
+}
+
+.faq:hover .fa.fa.fa-arrow-down {
+    display: inline;
+    
+}
+
+.faq:hover .fa.fa.fa-arrow-up {
+    display: none;
 }
 
 .container-footer {
@@ -738,7 +767,7 @@ html {
 
 }
 
-.fa.fa-arrow-up {
+.col-footer .fa.fa-arrow-up {
     font-size: x-small;
     color: grey;
 }
