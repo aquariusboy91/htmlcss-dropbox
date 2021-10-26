@@ -16,6 +16,7 @@ html {
     clear: both;
 }
 
+/* nav */
 .menu.clearfix {
     width: 100%;
     position: fixed;
@@ -91,6 +92,7 @@ html {
     
 }
 
+/* JUMBO */
 .jumbo-title {
     height: 20em;
     background-color: #B4D0E7;
@@ -149,6 +151,7 @@ html {
     font-size: 1.5em;
 }
 
+/* MAIN */
 .main-title {
     width: 60%;
     margin: 12em 10em 2em 20em;
@@ -370,6 +373,7 @@ html {
     margin-left: 2em;
 }
 
+/* FIND PARTNER */
 .container-find-partner {
     width: 60%;
     margin: 8em 20em 5em 20em;
@@ -417,6 +421,7 @@ html {
     font-weight: bold;
 }
 
+/* BUSINESS */
 .container-operazioni-business {
     position: relative;
     width: 60%;
@@ -465,6 +470,7 @@ html {
     margin-top: 10em;
 }
 
+/* CONSUMATORI/PARTNER */
 .container-customers {
     width: 60%;
     margin: 4em 20em 5em 20em;
@@ -484,9 +490,6 @@ html {
     margin-bottom: 0.5em;
 }
 
-.main {
-    position:relative;
-}
 
 .col-dx-customers {
     float: left;
@@ -616,6 +619,7 @@ html {
     padding: 2.5em 1.8em;
 }
 
+/* PROVA GRATUITA */
 .container-prova-gratuita {
     height: 18em;
     background-color: #B4D0E7;
@@ -658,6 +662,7 @@ html {
     display: inline-block;
 }
 
+/* DOMANDE FREQUENTI */
 .cont-faq {
     width: 60%;
     margin:auto;
@@ -720,6 +725,7 @@ html {
     display: none;
 }
 
+/* FOOTER */
 .container-footer {
     height: 22em;
     background-color: black;
