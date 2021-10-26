@@ -80,8 +80,8 @@ html {
 }
 
 #nav-btn {
-    padding: 0.5em 1em;
-    background-color: cornflowerblue;
+    padding: 0.5em 1.5em;
+    background-color: #0061FF;
     border-bottom: 0px;
     display: inline-block;
     color: white;
@@ -157,6 +157,7 @@ html {
 
 .main-title h2 {
     font-size: 2.5em;
+    margin-bottom: 1.5em;
 }
 
 .fatturazione {
@@ -192,13 +193,19 @@ html {
     
 }
 
-.col-header h3 {
-    font-size: 15px;
+.col-header h5 {
     padding: 0.5em;
     display: inline-block;
     
 }
 
+.col-header .fa.fa-user {
+    font-size: small;
+}
+
+.col-header .fa.fa-building {
+    font-size: small;
+}
 
 .col-header.col-margin {
     margin-left: 5%;
@@ -252,12 +259,12 @@ html {
 }
 
 #prova {
-    padding: 0.5em 3.5em;
-    background-color: cornflowerblue;
+    padding: 1em 4em;
+    background-color: #0061FF;
     border-bottom: 0px;
     display: inline-block;
     color: white;
-    font-size: 10px;
+    font-size: x-small;
     font-weight: bold;
     text-decoration: none;
     margin-left: 2em;
@@ -313,12 +320,13 @@ html {
     border-right: 1px solid #EBEBEC;
     border-left: 1px solid #EBEBEC;
 }
-.col-footer-title h3 {
+.col-footer-title h5 {
     display: inline-block;
 }
 
 .col-footer-title span{
     margin-right: 0.5em;
+    font-size: small;
 }
 
 .col-footer-content {
@@ -351,12 +359,12 @@ html {
 }
 
 #main-footer-btn {
-    padding: 0.5em 3.5em;
-    background-color: cornflowerblue;
+    padding: 1em 4em;
+    background-color: #0061FF;
     border-bottom: 0px;
     display: inline-block;
     color: white;
-    font-size: 10px;
+    font-size: x-small;
     font-weight: bold;
     text-decoration: none;
     margin-left: 2em;
